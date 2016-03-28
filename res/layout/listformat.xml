@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/textView1" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="Small Text" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textColor="#bb0000" android:id="@id/textView2" android:layout_width="-2" android:layout_height="-2" android:text="src" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textColor="#bb0000" android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="dest" android:layout_below="@id/textView1" android:layout_alignParentLeft="true" />
+    <TextView android:textColor="#bb0000" android:id="@id/textView4" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="time" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textColor="#bb0000" android:id="@id/textView5" android:layout_width="-2" android:layout_height="-2" android:text="date" android:layout_alignRight="@id/textView4" android:layout_alignBottom="@id/textView3" />
+</RelativeLayout>

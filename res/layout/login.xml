@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/tv1" android:layout_width="-2" android:layout_height="-2" android:text="Username(Mobile no):" />
+    <TextView android:id="@id/tvFeedback1" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <EditText android:id="@id/etUsername" android:layout_width="-1" android:layout_height="-2" android:hint="Username" android:ems="10" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/tv2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Password:" />
+    <TextView android:id="@id/tvFeedback2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <EditText android:id="@id/etPassword" android:layout_width="-1" android:layout_height="-2" android:hint="Password" android:ems="10" android:inputType="81" />
+    <Button android:id="@id/bLogin1" android:background="#00ff00" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Login" />
+</LinearLayout>

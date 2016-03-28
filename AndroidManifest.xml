@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.taxicalling" platformBuildVersionCode="22" platformBuildVersionName="5.1-1756733">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:debuggable="true" android:allowBackup="true">
+        <activity android:label="@string/app_name" android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".Login" />
+        <activity android:label="@string/app_name" android:name=".Register" />
+        <activity android:label="@string/app_name" android:name=".MyJourneyCustomer" />
+        <activity android:label="@string/app_name" android:name=".InsertJourney" />
+        <activity android:label="@string/app_name" android:name=".EditJourney" />
+        <activity android:label="@string/app_name" android:name=".MyJourneyDriver" />
+        <activity android:label="@string/app_name" android:name=".AskJourney" />
+        <activity android:label="@string/app_name" android:name=".JourneyDetails">
+            <intent-filter>
+                <action android:name="com.example.taxicalling.JOURNEYDETAILS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".Proxy" />
+    </application>
+</manifest>

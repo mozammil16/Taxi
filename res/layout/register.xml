@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TabHost android:id="@id/tabhost" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <TabWidget android:id="0x1020013" android:layout_width="-1" android:layout_height="-2" />
+            <FrameLayout android:id="0x1020011" android:layout_width="-1" android:layout_height="-1">
+                <LinearLayout android:orientation="1" android:id="@id/tab1" android:layout_width="-1" android:layout_height="-1" android:weightSum="100.0">
+                    <ScrollView android:id="@id/scrollView1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="30.0">
+                        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                            <TextView android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:text="Username(Phone no.)" />
+                            <EditText android:id="@id/etUsername" android:layout_width="-1" android:layout_height="-2" android:hint="Username" android:ems="10" />
+                            <TextView android:id="@id/textView2" android:layout_width="-2" android:layout_height="-2" android:text="Password" />
+                            <EditText android:id="@id/etPassword" android:layout_width="-1" android:layout_height="-2" android:hint="Password" android:ems="10" android:inputType="81" />
+                            <TextView android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:text="Name" />
+                            <EditText android:id="@id/etName" android:layout_width="-1" android:layout_height="-2" android:hint="Name" android:ems="10" />
+                            <TextView android:id="@id/textView4" android:layout_width="-2" android:layout_height="-2" android:text="Email" />
+                            <EditText android:id="@id/etEmail" android:layout_width="-1" android:layout_height="-2" android:hint="Email" android:ems="10" android:inputType="21" />
+                            <TextView android:id="@id/textView5" android:layout_width="-2" android:layout_height="-2" android:text="City" />
+                            <EditText android:id="@id/etCity" android:layout_width="-1" android:layout_height="-2" android:hint="City" android:ems="10" />
+                        </LinearLayout>
+                    </ScrollView>
+                    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="70.0">
+                        <Button android:id="@id/bUser" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Register" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="1" android:id="@id/tab2" android:layout_width="-1" android:layout_height="-1" android:weightSum="100.0">
+                    <ScrollView android:id="@id/scrollView2" android:layout_width="-1" android:layout_height="-2" android:layout_weight="30.0">
+                        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                            <TextView android:id="@id/textView11" android:layout_width="-2" android:layout_height="-2" android:text="Username(Phone no.)" android:hint="" />
+                            <EditText android:id="@id/etUsernamed" android:layout_width="-1" android:layout_height="-2" android:hint="Username" android:ems="10" />
+                            <TextView android:id="@id/textView12" android:layout_width="-2" android:layout_height="-2" android:text="Password" />
+                            <EditText android:id="@id/etPasswordd" android:layout_width="-1" android:layout_height="-2" android:hint="Password" android:ems="10" android:inputType="81" />
+                            <TextView android:id="@id/textView13" android:layout_width="-2" android:layout_height="-2" android:text="Name" />
+                            <EditText android:id="@id/etNamed" android:layout_width="-1" android:layout_height="-2" android:hint="Name" android:ems="10" />
+                            <TextView android:id="@id/textView14" android:layout_width="-2" android:layout_height="-2" android:text="Email" />
+                            <EditText android:id="@id/etEmaild" android:layout_width="-1" android:layout_height="-2" android:hint="Email" android:ems="10" android:inputType="21" />
+                            <TextView android:id="@id/textView15" android:layout_width="-2" android:layout_height="-2" android:text="City" />
+                            <EditText android:id="@id/etCityd" android:layout_width="-1" android:layout_height="-2" android:hint="City" android:ems="10" />
+                            <TextView android:id="@id/textView6" android:layout_width="-2" android:layout_height="-2" android:text="Taxi No." />
+                            <EditText android:id="@id/etTaxino" android:layout_width="-1" android:layout_height="-2" android:hint="Taxi no" android:ems="10" />
+                        </LinearLayout>
+                    </ScrollView>
+                    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="20dp" android:layout_weight="70.0">
+                        <Button android:id="@id/bDriver" android:layout_width="-1" android:layout_height="-2" android:text="Register" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

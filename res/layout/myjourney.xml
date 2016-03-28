@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textColor="#ff0000" android:id="@id/tvMyJourney" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <Button android:id="@id/bJourneyOver" android:background="#00aa00" android:layout_width="-1" android:layout_height="-2" android:text="Journey Over" />
+    <Button android:id="@id/bBlock" android:background="#00aa00" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Block" />
+</LinearLayout>
